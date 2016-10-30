@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.milleniumshopping.app.milleniumshopping">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.employee.AddEmployee" />
+        <activity android:name=".activity.employee.DeleteEmployee" />
+        <activity android:name=".activity.employee.EmployeeMenu" />
+        <activity android:name=".activity.employee.PreviewEmployee" />
+        <activity android:name=".activity.employee.UpdateEmployee" />
+        <activity android:name=".activity.employee.ViewEmployee" />
+        <activity android:name=".activity.internet.AddInternet" />
+        <activity android:name=".activity.internet.InternetMenu" />
+        <activity android:name=".activity.internet.PreviewInternet" />
+        <activity android:name=".activity.internet.ViewInternet" />
+        <activity android:name=".activity.internet.DeleteInternet" />
+        <activity android:name=".activity.internet.UpdateInternet"></activity>
+    </application>
+
+</manifest>
